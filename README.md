@@ -102,7 +102,7 @@ SSH into the control node and follow the steps below:
 - Run the playbook, and navigate to ELKVM to check that the installation worked as expected. /etc/ansible/host should include:
 - [webservers] [10.0.0.5] ansible_python_interpreter=/usr/bin/python3
 - [webservers] [10.0.0.6] ansible_python_interpreter=/usr/bin/python3
-- [elk] [10.0.0.4] ansible_python_interpreter=/usr/bin/python3
+- [elk] [10.2.0.4] ansible_python_interpreter=/usr/bin/python3
 
 Run the playbook, and SSH into the Elk vm, then run docker ps to check that the installation worked as expected. Playbook: install_elk.yml Location: /etc/ansible/install_elk.yml Navigate to http://[your.ELK-VM.External.IP]:5601/app/kibana to confirm ELK and kibana are running.
 ![Kibana Website](https://github.com/chill0516/Elk-Stack-Project/blob/main/Diagrams/kibana.png)
