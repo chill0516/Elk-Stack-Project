@@ -99,7 +99,7 @@ In order to use the playbook, you will need to have an Ansible control node alre
 SSH into the control node and follow the steps below:
 - Copy the playbook file to /etc/ansible.
 - Update the configuration file to include the webservers and ElkVM (private IP address).
-- Run the playbook, and navigate to ELKVM to check that the installation worked as expected. /etc/ansible/host should include:
+- Run the playbook, and navigate to ELK VM to check that the installation worked as expected. /etc/ansible/host should include:
 - [webservers] [10.0.0.5] ansible_python_interpreter=/usr/bin/python3
 - [webservers] [10.0.0.6] ansible_python_interpreter=/usr/bin/python3
 - [elk] [10.2.0.4] ansible_python_interpreter=/usr/bin/python3
