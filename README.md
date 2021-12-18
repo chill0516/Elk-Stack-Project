@@ -2,7 +2,7 @@
 
 The files in this repository were used to configure the network depicted below.
 
-![Image1](https://github.com/chill0516/Elk-Stack-Project/blob/main/Diagrams/TopoDiagram.png)
+![Image1](https://github.com/chill0516/Elk-Stack-Project/blob/main/Diagrams/topofinish.png)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the **/etc/ansible/*.yml** file may be used to install only certain pieces of it, such as Filebeat.
 
@@ -78,7 +78,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![TODO: Update the path with the name of your screenshot of docker ps output](Images/docker_ps_output.png)
+![TODO: Update the path with the name of your screenshot of docker ps output](https://github.com/chill0516/Elk-Stack-Project/blob/main/Diagrams/dockerss.png)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
@@ -105,6 +105,7 @@ SSH into the control node and follow the steps below:
 - [elk] [10.0.0.4] ansible_python_interpreter=/usr/bin/python3
 
 Run the playbook, and SSH into the Elk vm, then run docker ps to check that the installation worked as expected. Playbook: install_elk.yml Location: /etc/ansible/install_elk.yml Navigate to http://[your.ELK-VM.External.IP]:5601/app/kibana to confirm ELK and kibana are running.
+![Kibana Website](https://github.com/chill0516/Elk-Stack-Project/blob/main/Diagrams/kibana.png)
 
 - _Which file is the playbook? Where do you copy it?_
 - /etc/ansible/file/filebeat-configuration.yml
