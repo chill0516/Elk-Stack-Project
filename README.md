@@ -4,7 +4,7 @@ The files in this repository were used to configure the network depicted below.
 
 ![Image1](https://github.com/chill0516/Elk-Stack-Project/blob/main/Diagrams/topofinish.png)
 
-These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the **/etc/ansible/*.yml** file may be used to install only certain pieces of it, such as Filebeat.
+These files have been tested and used to generate a live ELK deployment on Azure. They can be used to recreate the entire deployment pictured above. Alternatively, select portions of the **/etc/ansible/*.yml** file may be used to install only certain pieces of it, such as Filebeat.
 
   - _Note: Use the [Filebeat Configuration YML](https://github.com/chill0516/Elk-Stack-Project/blob/main/Ansible/filebeat-configuration.yml) to look at the Filebeat Configuration YML_.
   - _Note: Use the [Filebeat Playbook YML](https://github.com/chill0516/Elk-Stack-Project/blob/main/Ansible/filebeat-playbook.yml) to look at the Filebeat Playbook YML_.
@@ -25,7 +25,7 @@ This document contains the following details:
 
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
 
-Load balancing ensures that the application will be highly efficient, in addition to restricting traffic to the network.
+Load balancing ensures that the application will be highly efficient in addition to restricting traffic to the network.
 - _What aspect of security do load balancers protect?_ *Redundancy (Fault Tolerance)* 
 - _What is the advantage of a jump box?_ *A jump box is a hardened and monitored device that controls access to other internal devices.*
 
