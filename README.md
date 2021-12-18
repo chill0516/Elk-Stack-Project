@@ -106,7 +106,6 @@ SSH into the control node and follow the steps below:
 
 Run the playbook, and SSH into the Elk vm, then run docker ps to check that the installation worked as expected. Playbook: install_elk.yml Location: /etc/ansible/install_elk.yml Navigate to http://[your.ELK-VM.External.IP]:5601/app/kibana to confirm ELK and kibana are running.
 
-_TODO: Answer the following questions to fill in the blanks:_
 - _Which file is the playbook? Where do you copy it?_
 - /etc/ansible/file/filebeat-configuration.yml
 - _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
