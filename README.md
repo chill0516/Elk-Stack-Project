@@ -111,6 +111,6 @@ Run the playbook and SSH into the Elk vm, then run docker ps to check that the i
 - /etc/ansible/file/filebeat-configuration.yml
 - _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
 - You would edit the /etc/ansible/hosts file to add webserver/elkserver ip addresses
-- Which URL do you navigate to in order to check that the ELK server is running?
+- _Which URL do you navigate to in order to check that the ELK server is running?
 - http://(ELK-VM.IP.Address):5602/app/kibana
 
